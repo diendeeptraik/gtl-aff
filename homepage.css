@@ -533,18 +533,27 @@ input::target-text{
     overflow: hidden;
     margin-top: 8px;
 }
+.img-bottom img{
+    width: 100%;
+}
 /**ABOUT US*/
 #Aboutus p {
     margin-bottom: 13px;
 }
 .img-contact{
+    width: 50%;
     background-image: url(http://en.vff.org.vn/wp-content/uploads/2019/10/contactimg.jpg);
 }
+.img-contact img{
+    width: 100%;
+}
 #about-contact-section{
+    background-color: #5c6bc099;
+    flex-wrap: wrap;
     display: flex;
 }
 .content-contact{
-    width: 100%;
+    width: 47%;
     padding: 20px;
     background-color: #5c6bc099;
 }
@@ -597,4 +606,7 @@ input::target-text{
 .title-compe{
     margin-left: 8px;
     text-transform: uppercase;
+}
+.header-middle button:hover{
+    color: #5c6bc0;
 }
